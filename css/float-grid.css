@@ -19,12 +19,7 @@
     clear: both;
 }
 
-.col-4 {
-    float: left;
-    padding-left: 1.04166666%;
-    padding-right: 1.04166666%;
-}
-
+.col-4,
 .col-12 {
     float: left;
     padding-left: 1.04166666%;
@@ -34,10 +29,7 @@
 
 /*Mobile Defaults*/
 
-.col-4 {
-    width: 100%;
-}
-
+.col-4,
 .col-12 {
     width: 100%;
 }
@@ -45,18 +37,15 @@
 
 /*Non-mobile, grid*/
 
-
-/*4 columns,
+@media only screen and (min width: 640px) {
+    /*4 columns,
 4/12 in %*/
-
-.col-4 {
-    width: 33.33333%;
-}
-
-
-/*12 columns,
+    .col-4 {
+        width: 33.33333%;
+    }
+    /*12 columns,
 12/12 in %*/
-
-.col-12 {
-    width: 100%;
+    .col-12 {
+        width: 100%;
+    }
 }

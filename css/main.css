@@ -1,10 +1,15 @@
+/*
 main {
     padding-top: 100px;
 }
+*/
 
+
+/*
 main .row {
     margin-bottom: 20px;
 }
+*/
 
 header {
     height: 30 px;
@@ -40,6 +45,10 @@ h3 {
     font-weight: lighter;
     padding-left: 20px;
     margin-top: 5px;
+}
+
+.description {
+    padding: 18px;
 }
 
 
